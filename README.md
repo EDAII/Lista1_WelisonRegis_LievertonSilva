@@ -13,7 +13,7 @@ Propõe-se nessa atividade utilizar **algoritmos de busca aplicados em um _datas
 *    **Sequência indexada**;
 *    **Binária indexada**.
 
-O trabalho avaliou a **performance dos diferentes algoritmos para diferentes tamanhos de _inputs_ randômicos**, gerando **gráficos** e explorando as informações prestadas contidas no _dataset_.
+O trabalho avaliou a **performance dos diferentes algoritmos para diferentes tamanhos de _inputs_ randômicos**, gerando **gráficos** e explorando as informações contidas no _dataset_.
 
 _Dataset_ dos jogadores do FIFA 19:  [dataset - FIFA](https://www.kaggle.com/karangadiya/fifa19).
 
@@ -32,9 +32,10 @@ $ python3 -m pip install --upgrade
 $ python3 -m pip install jupyter
 $ pip install matplotlib --user
 $ pip install pandas --user
+$ pip install numpy --user
 ```
 
-**Observação:** caso seja necessário utilize o comando `sudo`.
+**Observação:** caso seja necessário, utilize o comando `sudo`.
 ## ACESSO À APLICAÇÃO
 Para testar a aplicação, execute os seguintes passos:
 1. Faça uma cópia do repositório para o seu computador em um lugar de sua preferência.
