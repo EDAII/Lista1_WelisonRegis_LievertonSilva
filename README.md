@@ -17,8 +17,10 @@ O trabalho avaliou a **performance dos diferentes algoritmos para diferentes tam
 
 _Dataset_ dos jogadores do FIFA 19:  [dataset - FIFA](https://www.kaggle.com/karangadiya/fifa19).
 
+Caso deseje visualizar uma versão já processada do código, acesse: [algoritmos Busca](https://github.com/EDAII/Lista1_WelisonRegis_LievertonSilva/blob/master/lista1_algoritmos_busca.ipynb).
+
 ## DEPENDÊNCIAS
-Para executar este projeto são necessárias algumas dependencias, para a instalar siga o passo a passo:
+Para executar este projeto são necessárias algumas dependências. Para instalá-las, siga o passo a passo:
 
 1. Primeiramente abra o terminal:
 ```
@@ -36,6 +38,8 @@ $ pip install numpy --user
 ```
 
 **Observação:** caso seja necessário, utilize o comando `sudo`.
+
+
 ## ACESSO À APLICAÇÃO
 Para testar a aplicação, execute os seguintes passos:
 1. Faça uma cópia do repositório para o seu computador em um lugar de sua preferência.
@@ -52,15 +56,17 @@ Para testar a aplicação, execute os seguintes passos:
 
 3. Execute o projeto com o jupyter notebook:
 ```
-    jupyter notebook lista1_algoritmos_busca.ipynb
+    $ jupyter notebook lista1_algoritmos_busca.ipynb
 ```
-Caso deseje visualizar uma versão já processada do código, acesse: [Algoritmos Busca](https://github.com/EDAII/Lista1_WelisonRegis_LievertonSilva/blob/master/lista1_algoritmos_busca.ipynb).
+
+
+**Observação:** caso não esteja em um sistema unix, providencie o jupyter notebook e as dependências através dos fornecedores, e siga as instruções informadas pelo(s) proprietário(s).
 
 ## FUNCIONAMENTO
-Com o notebook aberto, execute cada célula por vez:
+Com o notebook aberto, execute uma célula por vez:
 
 ```
     shift + ENTER
 ``` 
 
-Ao final será apresentado gráficos que descrevem a eficiência dos algoritmos de busca citados para um determinado _dataset_.
+Ao final será apresentado gráficos que descrevem a eficiência dos algoritmos de busca citados para um _input_ com tamanho variado e randômico do _dataset_.
